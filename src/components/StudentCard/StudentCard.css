@@ -1,0 +1,45 @@
+.student-card{
+    aspect-ratio: 1;
+    width:100%;
+    background-color: var(--color-4);
+    padding: 6px;
+    box-shadow: 6px 10px 6px var(--text-color-1);
+    border-bottom-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    
+   
+}
+.student-card-input{
+    background: none;
+    border: none;
+    color: var(--text-color-1);
+    font-size:var(--font-size-1);
+    display:block;
+    text-align: center;
+    font-family: "Permanent Marker", serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 100%;
+    resize: none;
+    flex:1;
+    overflow-y: auto;
+    
+}
+.student-card-input:focus{
+    border: none;
+    outline: none;
+    
+}
+.student-card-input::placeholder{
+    color: var(--text-color-2);
+}
+.student-card-icon{
+    width:40px;
+    display: block;
+}
+.student-card-button-container{
+    display:flex;
+    justify-content: right;
+}
+

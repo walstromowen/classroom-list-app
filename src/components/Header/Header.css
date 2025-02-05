@@ -1,0 +1,20 @@
+.header{
+    flex: 1;
+    align-items: center;
+    justify-content:center;
+    background-image: url('../../assets/chalkboard-backsplash.jpg');
+    
+    background-repeat:no-repeat;
+    background-size: cover;
+   
+}
+.header-title{
+    color: var(--text-color-1);
+    font-family: "Fredericka the Great", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 48px;
+    color: white;
+    text-shadow: 4px 4px 4px var(--text-color-1);
+    text-align:center;
+}

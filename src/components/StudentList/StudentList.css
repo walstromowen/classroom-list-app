@@ -1,0 +1,28 @@
+.student-list{
+    flex: 6;
+    padding: 10px;
+    display:grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) ;
+    overflow-x: hidden;
+    grid-auto-rows: min-content;
+    gap: 20px;
+    width: 100%;
+  
+    
+}
+
+@media only screen and (min-width: 600px) {
+    .student-list{
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) ;
+    }
+}
+@media only screen and (min-width: 960px) {
+    .student-list{
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
+    }
+}
+@media only screen and (min-width: 1480px) {
+    .student-list{
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr)  ;
+    }
+}

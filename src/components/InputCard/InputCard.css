@@ -1,0 +1,6 @@
+.input-card-input{
+    margin-top: 36px;
+}
+.input-card-input::placeholder {
+    color: var(--color-5);
+}

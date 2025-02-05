@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+:root{
+  --color-1: black;
+  --color-2: white;
+  --color-3: lightgrey;
+  --color-4: rgb(241, 241, 66);
+  --color-5: #e76f51;
+
+  --text-color-1:black;
+  --text-color-2:white;
+
+  --font-size-1: 18px;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--text-color-1);
+  font-family: 'times';
+  font-weight: normal;
+}
+body{
+  background-color: lightgrey
+}
+button{
+  background: none;
+  border: none;
+  color: var(--text-color-1);
+  font-family: "Permanent Marker", serif;
+    font-weight: 400;
+    font-style: normal;
+  
+  font-size: 24px;
+
+  
+
+}
+button:hover{
+  box-shadow: 0px 0px 0px var(--text-color-1);
+  scale: 120%;
+  font-weight: 1000;
+  color: var(--color-5)
+
+}
+h1{
+  font-size:30px;
+ 
+}
+h2{
+  font-size: 24px;
+}
+h3{
+  font-size: 20px;
+}
+.app{
+  display: flex;
+  flex-direction: column;
+  height: 100dvh;
+}
+.header-footer{
+  display:flex;
+  align-content: center;
+  gap: 5%;
+  padding: 10px;
+  
+  
+}
+.hover-brightness:hover{
+  filter:brightness(1.5);
+  color: var(--text-color-1);
+}
+
+@media only screen and (min-width: 600px) {
+  :root{
+    --font-size-1: 18px;
+  }
+}
+@media only screen and (min-width: 800px) {
+  :root{
+    --font-size-1: 20px;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  :root{
+    --font-size-1: 24px;
+  }
+}
